@@ -1,7 +1,17 @@
 <project name="ui_dagilog">
-	<targets>
-		<target name="target1">
-			<display width="320" height="240" />
-		</target>
-	</targets>
+  <targets>
+    <target name="target1">
+      <display width="320" height="240" />
+    </target>
+  </targets>
+
+  <!-- Globals file -->
+  <globals src="globals.xml" />
+
+  <!-- Screens -->
+  <screens>
+    <screen src="screens/screen_main.xml" />
+    <!-- 필요하면 추가 -->
+    <!-- <screen src="screens/screen_about.xml" /> -->
+  </screens>
 </project>
